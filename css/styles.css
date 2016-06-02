@@ -1,0 +1,11 @@
+.survey {
+  display: inherit;
+}
+
+.result {
+  display: none;
+}
+
+#nameStatus {
+  display: none;
+}

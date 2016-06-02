@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Celebrity Dating</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </head>
+
+  <body>
+    <form class="form-horizontal" id="survey">
+      <div class="row">
+        <div class="survey container">
+          <div class="col-md-4 form-group">
+            <div class="form-group">
+            <label for="name" class="control-label">What's yo name?</label>
+            <input type="text" class="form-control" id="name" placeholder="John Smith">
+            </div>
+            <label for="number" class="control-label">What's yo number?</label>
+            <input type="tel" class="form-control" id="number" placeholder="(###) ###-####">
+        </div>
+        <div class="col-md-4">
+          <h5>Preferred Locations</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="1" checked>
+              Good
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="2">
+              Bad
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="3">
+              Ugly
+            </label>
+          </div>
+        </div>
+          <div class="col-md-4">
+            <h5>Romantic stuff</h5>
+            <select class="form-control" id="venues1">
+              <option value="1">Soda</option>
+              <option value="2">Tea</option>
+              <option value="3">Kombucha</option>
+            </select>
+            <h5>Adventure Stuff</h5>
+            <select class="form-control" id="venues2">
+              <option value="1">Coffee</option>
+              <option value="2">Tea</option>
+              <option value="3">Kombucha</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="jumbotron">
+          <button type="submit" class="btn btn-primary">Find Your Match</button>
+        </div>
+      </div>
+    </form>
+    <div class="container result">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">Project name</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Hooray for animals!!</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="elephant" src="img/elephant1.jpg">
+          <img class="jaguar" src="img/Jaguar1.jpg">
+          <img class="penguin" src="img/penguin1.jpeg">
+        </div>
+        <div class="col-lg-4">
+          <img class="elephant" src="img/elephant2.jpg">
+          <img class="jaguar" src="img/Jaguar2.jpg">
+          <img class="penguin" src="img/penguin2.jpg">
+       </div>
+        <div class="col-lg-4">
+          <img class="elephant" src="img/elephant3.jpg">
+          <img class="jaguar" src="img/Jaguar3.jpg">
+          <img class="penguin" src="img/penguin3.jpeg">
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2016 P & J, Inc.</p>
+      </footer>
+
+    </div>
+
+
+
+  </body>
+</html>
