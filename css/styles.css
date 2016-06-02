@@ -9,3 +9,12 @@
 #nameStatus {
   display: none;
 }
+
+.chris1, .chris2, .chris3 {
+  display: none;
+  width: 350px;
+}
+
+p {
+  text-align: center;
+}

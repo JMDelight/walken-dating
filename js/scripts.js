@@ -1,6 +1,12 @@
 $(function() {
   $('#survey').submit(function(event) {
   event.preventDefault();
+  $('.chris1').hide();
+
+  $('.chris2').hide();
+
+  $('.chris3').hide();
+  $("div.result").hide();
 
   var name = $('input#name').val();
   var score1 = parseInt($('select#venues1').val());
@@ -12,12 +18,13 @@ $(function() {
   } else {
     var total = score1 + score2 + score3;
     if (total < 4) {
-      alert("You get Happy Christopher Walken")
+      $('.chris1').show();
     } else if (total < 7) {
-      alert("You get so-so Christopher Walken")
+      $('.chris2').show();
     } else {
-      alert("You get villian Christopher Walken")
+      $('.chris3').show();
     }
   }
+  $("div.result").show();
 });
 });
